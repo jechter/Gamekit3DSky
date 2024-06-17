@@ -1,10 +1,17 @@
 using System.Collections.Generic;
 using System.IO;
 using SkyEngine;
-using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using Material = UnityEngine.Material;
+
+public static class ComponentHelper
+{
+    public static T GetOrAddComponent<T>(this GameObject uo) where T : UnityEngine.Component
+    {
+        return uo.GetComponent<T>() ?? uo.AddComponent<T>();
+    } 
+}
 
 public class MaterialConverter
 {
