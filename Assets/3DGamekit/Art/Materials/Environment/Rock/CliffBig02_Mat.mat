@@ -1,25 +1,78 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-886896097861996315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f2e6067944ef0930cf41ce03e1b16, type: 3}
+  m_Name: Sky Textures
+  m_EditorClassIdentifier: 
+  wrappedMaterial: {fileID: 2100000}
+  Project: {fileID: 11400000, guid: 7960874e179b24c4a8a58605cfc38ad2, type: 2}
+  TexturePropsSerialized:
+  - MaterialProperty: _MainTex
+    ProjectPath: /3DGameKitTextures/Environment/Rock/CliffBig02_Albedo.tif
+  - MaterialProperty: _BumpMap
+    ProjectPath: /3DGameKitTextures/Environment/Rock/CliffBig02_Normals.tif
+  - MaterialProperty: _MetallicGlossMap
+    ProjectPath: /3DGameKitTextures/Environment/Rock/CliffBig02_MetallicSmooth.tif
+  - MaterialProperty: _OcclusionMap
+    ProjectPath: /3DGameKitTextures/Environment/Rock/CliffBig02_Occlusion.tif
+  - MaterialProperty: _Noise
+    ProjectPath: /3DGameKitTextures/Effects/Clouds_Noise.tif
+  - MaterialProperty: _DetailBump
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetail_normal.tif
+  - MaterialProperty: _MetallicRough
+    ProjectPath: /3DGameKitTextures/Environment/Rock/CliffBig02_MetallicSmooth.tif
+  - MaterialProperty: _TopAlbedo
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_Albedo.tif
+  - MaterialProperty: _TopNormal
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_Normal1.tif
+  - MaterialProperty: _TopMetallicRough
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_MetallicSmooth.tif
+  - MaterialProperty: _DetailAlbedo
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetailMedium_Albedo.tif
+  - MaterialProperty: _DetailBumpMap1
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetail_normal.tif
+  - MaterialProperty: _DetailBumpMap2
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetailMedium_Normal.tif
+  - MaterialProperty: _DetailMetalGloss
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetail_MetallicSmooth.tif
+  - MaterialProperty: _MetalGloss
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetail_MetallicSmooth.tif
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: CliffBig02_Mat
   m_Shader: {fileID: 4800000, guid: 334962709511cd04e83c9de5f7e6bec8, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _USE_DECAL_ON
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  - _USE_DECAL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: ee3ed04a0e2d4264189d58bbca8dad37, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Decal:
@@ -43,7 +96,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedo:
-        m_Texture: {fileID: 2800000, guid: 67f7a05ba7555b34a95cd7f85725ba16, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -51,7 +104,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailBump:
-        m_Texture: {fileID: 2800000, guid: eb1605a43e874444c8ab618296f0ab23, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailBumpMap:
@@ -59,11 +112,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailBumpMap1:
-        m_Texture: {fileID: 2800000, guid: eb1605a43e874444c8ab618296f0ab23, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _DetailBumpMap2:
-        m_Texture: {fileID: 2800000, guid: 48495040bbd3a49c0915117a7650e232, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 6, y: 4}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
@@ -71,7 +124,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMetalGloss:
-        m_Texture: {fileID: 2800000, guid: 3bb1bef1e3fd54e80a387d2b28355e70, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 20, y: 20}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
@@ -83,27 +136,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: e396811bc8a737244811455e213cb254, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetalGloss:
-        m_Texture: {fileID: 2800000, guid: 3bb1bef1e3fd54e80a387d2b28355e70, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: 8ff898b0b70398349998d5b0b427f060, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicRough:
-        m_Texture: {fileID: 2800000, guid: 8ff898b0b70398349998d5b0b427f060, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: 039619e8304ca2642abd7f060be738f4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 8eea782597fbf9345a9c844a49c3b2b3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -115,21 +168,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopAlbedo:
-        m_Texture: {fileID: 2800000, guid: fd467bbf94d53bb499d3c3075cb021c9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopMetallicRough:
-        m_Texture: {fileID: 2800000, guid: 959fe93954fd6c349a6274a09ed4e1e5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNormal:
-        m_Texture: {fileID: 2800000, guid: b5e52e512494f434c88a1675f0e9361d, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNormal2:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BlendHeight: 0
     - _BumpScale: 1
@@ -163,3 +217,5 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

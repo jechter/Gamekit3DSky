@@ -1,25 +1,58 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8044652598598478722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f2e6067944ef0930cf41ce03e1b16, type: 3}
+  m_Name: Sky Textures
+  m_EditorClassIdentifier: 
+  wrappedMaterial: {fileID: 2100000}
+  Project: {fileID: 11400000, guid: 7960874e179b24c4a8a58605cfc38ad2, type: 2}
+  TexturePropsSerialized:
+  - MaterialProperty: _MainTex
+    ProjectPath: /3DGameKitTextures/Characters/Ellen/Ellen_Body_Dirty_Albedo.tif
+  - MaterialProperty: _BumpMap
+    ProjectPath: /3DGameKitTextures/Characters/Ellen/Ellen_Body_Dirty_Normal.tif
+  - MaterialProperty: _MetallicGlossMap
+    ProjectPath: /3DGameKitTextures/Characters/Ellen/Ellen_Body_Dirty_MetallicSmooth.tif
+  - MaterialProperty: _OcclusionMap
+    ProjectPath: /3DGameKitTextures/Characters/Ellen/Ellen_Body_Occlusion.tif
+  - MaterialProperty: _EmissionMap
+    ProjectPath: /3DGameKitTextures/Characters/Ellen/Ellen_Body_Emission.tif
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Ellen_Body_Dirty_Mat
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: _EMISSION _METALLICGLOSSMAP _NORMALMAP
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _EMISSION
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 1
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 3f13fc152adc4684a93003f7ed55a6fe, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -35,25 +68,26 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
-        m_Texture: {fileID: 2800000, guid: b4b755d5cc444c54ca35b5c41555844e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 616bd08975e2f8640aa67f0800697c87, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: fd9c2899baee2864b8a1df109fa8ec9e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 79e9a3fba6241f640b332875f39c332f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -74,3 +108,5 @@ Material:
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 1.545, g: 1.545, b: 1.545, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1

@@ -2,24 +2,31 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Fungus_Red_Mat
   m_Shader: {fileID: 4800000, guid: 6e346c3fa450443dbaa9506ddb3a521d, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: cfde0ba953833a049b75affd24696711, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -43,15 +50,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 444accc0c3987e04183f4512fe9980cb, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: bb068c9a6283f7c4cbc8bc2174459862, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 2f190675ca9c99345ac19136703a8b3f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -59,9 +66,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGloss:
-        m_Texture: {fileID: 2800000, guid: 93d3574f2ff8e2e4a9985a0f82feebad, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -86,3 +94,30 @@ Material:
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
     - _InternalColor: {r: 1, g: 0.20703113, b: 0, a: 1}
     - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &7416982746265572868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f2e6067944ef0930cf41ce03e1b16, type: 3}
+  m_Name: Sky Textures
+  m_EditorClassIdentifier: 
+  wrappedMaterial: {fileID: 2100000}
+  Project: {fileID: 11400000, guid: 7960874e179b24c4a8a58605cfc38ad2, type: 2}
+  TexturePropsSerialized:
+  - MaterialProperty: _MainTex
+    ProjectPath: /3DGameKitTextures/Environment/VegetationSmall/FungusRed_Albedo.tif
+  - MaterialProperty: _BumpMap
+    ProjectPath: /3DGameKitTextures/Environment/VegetationSmall/Fungus_Normal.tif
+  - MaterialProperty: _MetallicGlossMap
+    ProjectPath: /3DGameKitTextures/Environment/VegetationSmall/Fungus_MetallicSmooth.tif
+  - MaterialProperty: _OcclusionMap
+    ProjectPath: /3DGameKitTextures/Environment/VegetationSmall/Fungus_Occlusion.tiff
+  - MaterialProperty: _SpecGloss
+    ProjectPath: /3DGameKitTextures/Environment/VegetationSmall/Fungus_SpecGloss.tif

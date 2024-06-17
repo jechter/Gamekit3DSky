@@ -2,19 +2,25 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: GrenadierStatue
   m_Shader: {fileID: 4800000, guid: 334962709511cd04e83c9de5f7e6bec8, type: 3}
-  m_ShaderKeywords: _NORMALMAP
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _NORMALMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -23,7 +29,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: 7d0bb41dd0dbe3644b7e619a2fe36c9e, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -31,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailBump:
-        m_Texture: {fileID: 2800000, guid: eb1605a43e874444c8ab618296f0ab23, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
@@ -47,11 +53,11 @@ Material:
         m_Scale: {x: 10, y: 10}
         m_Offset: {x: 0, y: 0}
     - _Height:
-        m_Texture: {fileID: 2800000, guid: 1c0d44c4e761653459dbec2e39672ae3, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 0fce2e7238ba2eb4ba6210cec80fed69, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Mask:
@@ -63,15 +69,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicRough:
-        m_Texture: {fileID: 2800000, guid: b0c1f790db9e32b46a8a0c19a3e4f4ac, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
-        m_Texture: {fileID: 2800000, guid: 039619e8304ca2642abd7f060be738f4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 5335e10aa9f7de947bbbee37f963a33f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -95,21 +101,22 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopAlbedo:
-        m_Texture: {fileID: 2800000, guid: fd467bbf94d53bb499d3c3075cb021c9, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopMetallicRough:
-        m_Texture: {fileID: 2800000, guid: 959fe93954fd6c349a6274a09ed4e1e5, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNormal:
-        m_Texture: {fileID: 2800000, guid: b5e52e512494f434c88a1675f0e9361d, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _TopNormal2:
         m_Texture: {fileID: 2800000, guid: 309477ffa171bf54abfaf42808351d9d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0.5
@@ -142,3 +149,40 @@ Material:
     - _Color2: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SidesColour: {r: 0.5955882, g: 0.4486845, b: 0.2627595, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &1202031642019138994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f2e6067944ef0930cf41ce03e1b16, type: 3}
+  m_Name: Sky Textures
+  m_EditorClassIdentifier: 
+  wrappedMaterial: {fileID: 2100000}
+  Project: {fileID: 11400000, guid: 7960874e179b24c4a8a58605cfc38ad2, type: 2}
+  TexturePropsSerialized:
+  - MaterialProperty: _MainTex
+    ProjectPath: /3DGameKitTextures/Environment/Rock/TiledRock_Albedo.tif
+  - MaterialProperty: _BumpMap
+    ProjectPath: /3DGameKitTextures/Characters/Grenadier/Grenadier_Normal.tif
+  - MaterialProperty: _OcclusionMap
+    ProjectPath: /3DGameKitTextures/Environment/Rock/TiledRock_Occlusion.tif
+  - MaterialProperty: _Noise
+    ProjectPath: /3DGameKitTextures/Effects/Clouds_Noise.tif
+  - MaterialProperty: _DetailBump
+    ProjectPath: /3DGameKitTextures/Environment/Rock/RockDetail_normal.tif
+  - MaterialProperty: _MetallicRough
+    ProjectPath: /3DGameKitTextures/Environment/Rock/TiledRock_MetallicSmooth.tif
+  - MaterialProperty: _TopAlbedo
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_Albedo.tif
+  - MaterialProperty: _TopNormal
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_Normal1.tif
+  - MaterialProperty: _TopMetallicRough
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_MetallicSmooth.tif
+  - MaterialProperty: _Height
+    ProjectPath: /3DGameKitTextures/Environment/Ground/Moss_Height.tif

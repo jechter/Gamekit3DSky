@@ -2,28 +2,37 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!21 &2100000
 Material:
-  serializedVersion: 6
+  serializedVersion: 8
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Spitter_Body_Mat
   m_Shader: {fileID: 4800000, guid: df778dfc69de7fb48809501a413b8bbf, type: 3}
-  m_ShaderKeywords: _METALLICGLOSSMAP _NORMALMAP _SPECGLOSSMAP _USE_GRADIENT_ON
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords:
+  - _USE_GRADIENT_ON
+  m_InvalidKeywords:
+  - _METALLICGLOSSMAP
+  - _NORMALMAP
+  - _SPECGLOSSMAP
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
     - _AO:
-        m_Texture: {fileID: 2800000, guid: 8b8f71b26727fd347aa7a9584bad7892, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BumpMap:
-        m_Texture: {fileID: 2800000, guid: dc0fb198bec6f334aa6ba6291444ce44, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -47,19 +56,19 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Gradient:
-        m_Texture: {fileID: 2800000, guid: 0d67bfeb62a5a9f41b28f61a84bd49da, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a9f0584cbc99655439e340a87b23121f, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
-        m_Texture: {fileID: 2800000, guid: add82915f5a81e24c9fd112334f79eb4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicSmooth:
-        m_Texture: {fileID: 2800000, guid: add82915f5a81e24c9fd112334f79eb4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Noise:
@@ -67,15 +76,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: dc0fb198bec6f334aa6ba6291444ce44, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
-        m_Texture: {fileID: 2800000, guid: dc0fb198bec6f334aa6ba6291444ce44, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _OcclusionMap:
-        m_Texture: {fileID: 2800000, guid: 8b8f71b26727fd347aa7a9584bad7892, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _ParallaxMap:
@@ -83,17 +92,18 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Ramp:
-        m_Texture: {fileID: 2800000, guid: 20242c1e290e69746b039fce21bc8823, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGloss:
-        m_Texture: {fileID: 2800000, guid: add82915f5a81e24c9fd112334f79eb4, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SpecGlossMap:
-        m_Texture: {fileID: 2800000, guid: b777e10d28a944c4ea05d834c049bdf0, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    m_Ints: []
     m_Floats:
     - _BumpScale: 1
     - _Cutoff: 0
@@ -128,3 +138,44 @@ Material:
     - _RimColor: {r: 0.25999996, g: 0.18999997, b: 0.15999997, a: 0}
     - _SpecCol: {r: 1, g: 1, b: 1, a: 0}
     - _SpecColor: {r: 0.1102941, g: 0.1102941, b: 0.1102941, a: 1}
+  m_BuildTextureStacks: []
+  m_AllowLocking: 1
+--- !u!114 &8311484314943717992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 804f2e6067944ef0930cf41ce03e1b16, type: 3}
+  m_Name: Sky Textures
+  m_EditorClassIdentifier: 
+  wrappedMaterial: {fileID: 2100000}
+  Project: {fileID: 11400000, guid: 7960874e179b24c4a8a58605cfc38ad2, type: 2}
+  TexturePropsSerialized:
+  - MaterialProperty: _MainTex
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_Albedo.tif
+  - MaterialProperty: _BumpMap
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_Normal.tif
+  - MaterialProperty: _NormalMap
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_Normal.tif
+  - MaterialProperty: _MetallicGlossMap
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_MetallicSmooth.tif
+  - MaterialProperty: _OcclusionMap
+    ProjectPath: /3DGameKitTextures/Characters/Chomper/Chomper_Occlusion.tif
+  - MaterialProperty: _AO
+    ProjectPath: /3DGameKitTextures/Characters/Chomper/Chomper_Occlusion.tif
+  - MaterialProperty: _Normal
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_Normal.tif
+  - MaterialProperty: _MetallicSmooth
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_MetallicSmooth.tif
+  - MaterialProperty: _Ramp
+    ProjectPath: /3DGameKitTextures/Characters/Chomper/Chomper_Ramp.tif
+  - MaterialProperty: _SpecGloss
+    ProjectPath: /3DGameKitTextures/Characters/Spitter/Spitter_MetallicSmooth.tif
+  - MaterialProperty: _Gradient
+    ProjectPath: /3DGameKitTextures/Characters/Chomper/Chomper_DissolveGradient.tif
+  - MaterialProperty: _SpecGlossMap
+    ProjectPath: /3DGameKitTextures/Characters/Chomper/Chomper_MetallicSmooth.tif
