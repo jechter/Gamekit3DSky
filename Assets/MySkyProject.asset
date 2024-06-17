@@ -14,12 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _convertedGORoot: {fileID: 0}
   _convertedGORootScene:
-    m_Handle: -359548
+    m_Handle: -659360
   _loadedScene:
-    m_Handle: -2212
+    m_Handle: 0
   _loadedEntityProjectPath: /Tanks/_Complete-Game.skyentity
   _loadedEntityGameObject: {fileID: 0}
-  Host: http://localhost:5002
+  Host: http://shockwaving.com
   Repository: https://github.com/jechter/3dgamekitskyassets.git
   Branch: 
   Commit: 4235d4e561b76a54011f46d1771a57f59f9434f4
