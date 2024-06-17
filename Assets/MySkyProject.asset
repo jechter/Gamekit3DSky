@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf6970bd349cf49bfa3ae66df2676643, type: 3}
+  m_Name: MySkyProject
+  m_EditorClassIdentifier: 
+  _convertedGORoot: {fileID: 0}
+  _convertedGORootScene:
+    m_Handle: -359548
+  _loadedScene:
+    m_Handle: -2212
+  _loadedEntityProjectPath: /Tanks/_Complete-Game.skyentity
+  _loadedEntityGameObject: {fileID: 0}
+  Host: http://localhost:5002
+  Repository: https://github.com/jechter/3dgamekitskyassets.git
+  Branch: 
+  Commit: 4235d4e561b76a54011f46d1771a57f59f9434f4
+  AddHashToNewlyImportedAssetNames: 0
+  BakeAssetsIntoPlayerBuilds: 0
+  _serializePaths: []
+  _serializeObjects: []
+  _serializeObjectsLoadModes: 

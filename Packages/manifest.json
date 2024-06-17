@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "com.skyengine.datareference": "file:../../CloudReferences/SkyBuild/DataReference/package",
+    "com.skyengine.scenedata": "file:../../CloudReferences/SkyEngine/SceneData/package",
+    "com.skyengine.scenedataunitysupport": "file:../../CloudReferences/SkyEngine/SceneDataUnitySupport/package",
     "com.unity.2d.sprite": "1.0.0",
     "com.unity.2d.tilemap": "1.0.0",
     "com.unity.cinemachine": "2.5.0",
